@@ -4,12 +4,12 @@ import DocsSidebar from '@/components/DocsSidebar';
 
 export default function DocsLayout({ children }: { children: React.ReactNode }) {
   return (
-    <div className="min-h-screen flex flex-col bg-gray-50/50">
+    <div className="min-h-screen flex flex-col">
       <Header />
-      <div className="flex-1 max-w-7xl mx-auto w-full flex">
+      <div className="flex-1 flex max-w-[1400px] mx-auto w-full">
         <DocsSidebar />
-        <main className="flex-1 min-w-0 bg-white lg:border-l border-gray-100">
-          <div className="max-w-3xl px-6 lg:px-10 py-10">
+        <main className="flex-1 min-w-0 border-l border-gray-200">
+          <div className="max-w-4xl px-6 lg:px-10 py-8">
             {children}
           </div>
         </main>
