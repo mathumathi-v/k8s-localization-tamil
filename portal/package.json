@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "prebuild": "cp -r ../translations/content content-ta 2>/dev/null || true",
+    "prebuild": "if [ -d ../translations/content ]; then cp -r ../translations/content content-ta; echo 'Copied translations'; else echo 'No translations dir found'; fi",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
