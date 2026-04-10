@@ -50,3 +50,6 @@ tmp/
 
 # Project-internal
 CLAUDE.md
+
+# Build artifacts
+portal/content-ta/

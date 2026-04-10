@@ -10,7 +10,7 @@ Kubernetes ஆவணங்களை தமிழில் மொழிபெய�
 
 ## Demo Portal
 
-**Live Demo:** _Deploy to Vercel and add link here_
+**Live Demo:** https://k8s-localization-tamil.vercel.app/
 
 ```bash
 cd portal
@@ -110,7 +110,7 @@ See [CONTRIBUTING-ta.md](CONTRIBUTING-ta.md) for full details.
 - [x] `GLOSSARY.md` with 40+ terms
 - [x] `CONTRIBUTING-ta.md` written
 - [ ] PR opened to `kubernetes/website`
-- [ ] Demo portal deployed on Vercel
+- [x] Demo portal deployed on Vercel
 - [x] README with project overview
 
 ---

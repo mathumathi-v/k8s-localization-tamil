@@ -5,6 +5,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "prebuild": "cp -r ../translations/content content-ta 2>/dev/null || true",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"

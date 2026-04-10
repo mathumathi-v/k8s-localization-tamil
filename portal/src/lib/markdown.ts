@@ -4,7 +4,11 @@ import matter from 'gray-matter';
 import { remark } from 'remark';
 import html from 'remark-html';
 
-const translationsDir = path.join(process.cwd(), '..', 'translations', 'content', 'ta');
+// In dev: reads from ../translations/content/ta
+// On Vercel: prebuild copies to ./content-ta/ta
+const translationsDir = fs.existsSync(path.join(process.cwd(), '..', 'translations', 'content', 'ta'))
+  ? path.join(process.cwd(), '..', 'translations', 'content', 'ta')
+  : path.join(process.cwd(), 'content-ta', 'ta');
 
 function stripHugoShortcodes(content: string): string {
   // Remove glossary_tooltip shortcodes, keeping the text attribute
