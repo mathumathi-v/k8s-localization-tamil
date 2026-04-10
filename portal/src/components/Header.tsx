@@ -2,6 +2,7 @@
 
 import Link from 'next/link';
 import { useState } from 'react';
+import K8sLogo from './K8sLogo';
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -10,12 +11,8 @@ export default function Header() {
     <header className="bg-white border-b border-gray-200 sticky top-0 z-50">
       <div className="max-w-[1400px] mx-auto px-4 h-14 flex items-center justify-between">
         {/* Logo */}
-        <Link href="/" className="flex items-center gap-2.5 shrink-0">
-          <img
-            src="https://kubernetes.io/images/kubernetes-horizontal-color.png"
-            alt="Kubernetes"
-            className="h-7"
-          />
+        <Link href="/" className="shrink-0">
+          <K8sLogo className="h-9" />
         </Link>
 
         {/* Desktop Nav */}
