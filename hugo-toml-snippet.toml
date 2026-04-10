@@ -1,0 +1,13 @@
+# Add this block to hugo.toml in the [languages] section of kubernetes/website
+
+[languages.ta]
+title = "Kubernetes"
+languageName = "தமிழ் (Tamil)"
+weight = 20
+contentDir = "content/ta"
+languagedirection = "ltr"
+
+[languages.ta.params]
+language_alternatives = ["en"]
+description = "உற்பத்தி-தயாரான கொள்கலன் மேலாண்மை"
+languageNameLatinScript = "Tamil"

@@ -1,0 +1,86 @@
+# Tamil (ta) UI string translations for Kubernetes website
+# These strings are used in Hugo templates for navigation and UI elements
+
+[ui_search_placeholder]
+other = "தேடு"
+
+[ui_docs_edit_this_page]
+other = "இந்த பக்கத்தை திருத்து"
+
+[ui_next_page]
+other = "அடுத்த பக்கம்"
+
+[ui_prev_page]
+other = "முந்தைய பக்கம்"
+
+[ui_give_feedback]
+other = "கருத்து தெரிவிக்கவும்"
+
+[ui_read_more]
+other = "மேலும் படிக்க"
+
+[ui_page_table_of_contents]
+other = "பொருளடக்கம்"
+
+[ui_documentation]
+other = "ஆவணம்"
+
+[ui_blog]
+other = "வலைப்பதிவு"
+
+[ui_training]
+other = "பயிற்சி"
+
+[ui_partners]
+other = "கூட்டாளர்கள்"
+
+[ui_community]
+other = "சமூகம்"
+
+[ui_case_studies]
+other = "வழக்கு ஆய்வுகள்"
+
+[ui_version]
+other = "பதிப்பு"
+
+[ui_concepts]
+other = "கருத்துகள்"
+
+[ui_tasks]
+other = "பணிகள்"
+
+[ui_tutorials]
+other = "பயிற்சிகள்"
+
+[ui_reference]
+other = "குறிப்பு"
+
+[ui_getting_started]
+other = "தொடங்குவது"
+
+[ui_release_notes]
+other = "வெளியீட்டு குறிப்புகள்"
+
+[caution]
+other = "எச்சரிக்கை"
+
+[warning]
+other = "எச்சரிக்கை"
+
+[note]
+other = "குறிப்பு"
+
+[last_modified]
+other = "கடைசியாக மாற்றப்பட்டது"
+
+[feedback_heading]
+other = "கருத்து"
+
+[feedback_question]
+other = "இந்த பக்கம் உதவிகரமாக இருந்ததா?"
+
+[feedback_yes]
+other = "ஆம்"
+
+[feedback_no]
+other = "இல்லை"

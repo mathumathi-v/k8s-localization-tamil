@@ -1,0 +1,9 @@
+# See the OWNERS docs at https://go.k8s.io/owners
+
+# Tamil localization owners
+reviewers:
+  - mathumathiv
+approvers:
+  - mathumathiv
+labels:
+  - language/ta
