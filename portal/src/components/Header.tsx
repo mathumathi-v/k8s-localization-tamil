@@ -10,15 +10,12 @@ export default function Header() {
     <header className="bg-white border-b border-gray-200 sticky top-0 z-50">
       <div className="max-w-[1400px] mx-auto px-4 h-14 flex items-center justify-between">
         {/* Logo */}
-        <Link href="/" className="flex items-center gap-2 shrink-0">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 722 210" className="h-8">
-            <g fill="#326ce5">
-              <path d="M104.6 3.4C101.5 1.2 97.6 0 93.5 0c-4.1 0-8 1.2-11.1 3.4L20.3 46.8C14 50.9 9.6 58 8.5 66l-8.3 69c-.7 5.6.5 11.2 3.3 15.9l.3.5 42.8 56.3c3.6 4.7 9.1 7.8 15.2 8.5l69 8.3c2.8.3 5.6.3 8.3-.1l.7-.1 69-8.3c6.1-.7 11.6-3.8 15.2-8.5l42.8-56.3c2.9-4.8 4.1-10.5 3.3-16.2l-8.3-69c-1.1-7.8-5.5-14.9-11.8-19L188.2 3.4c-6.3-4.4-14.5-5-21.4-1.7"/>
-              <circle cx="93.5" cy="105" r="60" fill="white"/>
-              <path d="M93.5 36c-38 0-69 31-69 69s31 69 69 69 69-31 69-69-31-69-69-69m0 126c-31.5 0-57-25.5-57-57s25.5-57 57-57 57 25.5 57 57-25.5 57-57 57"/>
-            </g>
-            <text x="210" y="135" fontFamily="sans-serif" fontSize="100" fontWeight="600" fill="#303030">Kubernetes</text>
-          </svg>
+        <Link href="/" className="flex items-center gap-2.5 shrink-0">
+          <img
+            src="https://kubernetes.io/images/kubernetes-horizontal-color.png"
+            alt="Kubernetes"
+            className="h-7"
+          />
         </Link>
 
         {/* Desktop Nav */}
